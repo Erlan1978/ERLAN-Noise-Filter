@@ -13,15 +13,12 @@ Optimized performance
 To install the required dependencies, run:
 
 bash
-Копировать
-Редактировать
 pip install -r requirements.txt
+
 🛠 Usage
 Example usage in Python:
 
 python
-Копировать
-Редактировать
 from erlan import NoiseFilter
 
 # Initialize the model
@@ -29,6 +26,7 @@ filter = NoiseFilter()
 
 # Filter the data
 clean_data = filter.denoise(noisy_data)
+
 🔧 CI/CD
 The project uses GitHub Actions for automated testing and deployment.
 
